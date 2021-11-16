@@ -1,13 +1,13 @@
-package com.abhi.spring.jpa.postgresql;
+package com.abhi.spring.data.mongodb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootJpaPostgresqlApplication {
+public class SpringBootDataMongodbApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootJpaPostgresqlApplication.class, args);
+		SpringApplication.run(SpringBootDataMongodbApplication.class, args);
 	}
 
 }
